@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 10px;
+    padding: 10px;
+    background-color: #978b81;
+}
+header{
+    text-align: center;
+}
+header h1{
+    padding: 2%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    
+}
+.botao{
+    color: #000;
+    padding: 50px;
+    height: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 200px;
+    border: 0.01px solid #fff;
+    border-radius: 5px;
+    display: inline-block; float: left;
+    margin: 10px;
+    opacity: .7;
+}
+.botao:hover{
+    box-shadow: 0px 0px 40px #fff
+}
+.mdn{
+    color: #fff;
+    padding: 50px;
+    height: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: rgba(62, 62, 224, 0.5);
+    width: 200px;
+    border: 0.01px solid #fff;
+    border-radius: 5px;
+    display: inline-block; float: left;
+    margin: 10px;
+    opacity: .7;
+}
+.mdn:hover{
+    box-shadow: 0px 0px 40px #fff
+}
+.w3c{
+    color: #fff;
+    padding: 50px;
+    height: 30px;
+    padding: 10px 20px;
+    text-align: center;
+    background-color: #059862;
+    width: 200px;
+    border: 0.01px solid #fff;
+    border-radius: 5px;
+    display: inline-block; float: left;
+    margin: 10px;
+    opacity: .7;
+}
+.w3c:hover{
+    box-shadow: 0px 0px 40px #fff
+}
+.logo{
+    position: absolute;
+    width: 5%;
+    top: 5%;
+    left: 5%;
+    border-radius: 50%;
+}
+.gitHub{
+    position: absolute;
+    width: 5%;
+    top: 5%;
+    left: 15%;
+    border-radius: 50%;
+}
